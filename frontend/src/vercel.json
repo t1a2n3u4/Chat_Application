@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/signup", "destination": "/" },
+    { "source": "/login", "destination": "/" },
+    { "source": "/notifications", "destination": "/" },
+    { "source": "/call/:id/:type", "destination": "/" },
+    { "source": "/chat/:id", "destination": "/" },
+    { "source": "/onboarding", "destination": "/" },
+    { "source": "/", "destination": "/" }
+  ]
+}
