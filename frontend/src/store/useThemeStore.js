@@ -1,4 +1,4 @@
-import { create } from "zustand";
+import { createWithEqualityFn } from "zustand/traditional";
 
 export const useThemeStore = create((set) => ({
   theme: localStorage.getItem("streamify-theme") || "coffee",
