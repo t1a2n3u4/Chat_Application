@@ -105,10 +105,24 @@ Can be deployed on:
 Vercel (frontend)
 
 Render / Railway / Cyclic (backend)
+## 🖼️ Screenshots
 
+### 🔐 Login Page
+![Login](frontend/src/assets/login.png)
 
+### 🏠 Homepage
+![Homepage](frontend/src/assets/homepage.png)
 
+### 💬 Chat Screen
+![Chat](frontend/src/assets/chat.png)
 
+### 📹 Video Call
+![Video Call](frontend/src/assets/callpage.png)
 
+### 📹 sign up
+![sign up](frontend/src/assets/signup.png)
+
+### 📹 notification
+![notification](frontend/src/assets/notification.png)
 Author
 Made with 💙 by Tanishka Mishra
