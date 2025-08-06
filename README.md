@@ -60,9 +60,6 @@ INV-Meet is a **full-stack real-time chat and video calling application** built 
 
 ## 🖼️ Screenshots
 
-> _You can include screenshots or a demo video here._
-
----
 
 ## 🧩 Folder Structure
 
