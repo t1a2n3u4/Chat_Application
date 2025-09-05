@@ -1,11 +1,11 @@
 {
-  "rewrites": [
-    { "source": "/signup", "destination": "/" },
-    { "source": "/login", "destination": "/" },
-    { "source": "/notifications", "destination": "/" },
-    { "source": "/call/:id/:type", "destination": "/" },
-    { "source": "/chat/:id", "destination": "/" },
-    { "source": "/onboarding", "destination": "/" },
-    { "source": "/", "destination": "/" }
+  "version": 2,
+  "builds": [
+    { "src": "Backend/src/server.js", "use": "@vercel/node" },
+    { "src": "frontend/package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "Backend/src/server.js" },
+    { "src": "/(.*)", "dest": "frontend/$1" }
   ]
 }
